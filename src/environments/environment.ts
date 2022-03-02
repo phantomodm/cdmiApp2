@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  useEmulators: true,
+  firebase: {
+    apiKey: 'AIzaSyDZE8k0oNphBwYbpxUeiRfJTTsPcqqEd9o',
+    authDomain: 'cdmi-business-app.firebaseapp.com',
+    projectId: 'cdmi-business-app',
+    storageBucket: 'cdmi-business-app.appspot.com',
+    messagingSenderId: '677566961134',
+    appId: '1:677566961134:web:9131c4ef7a2e737af3aaff',
+  },
 };
 
 /*

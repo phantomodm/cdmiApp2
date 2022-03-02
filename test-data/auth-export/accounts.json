@@ -1,0 +1,101 @@
+{
+  "kind": "identitytoolkit#DownloadAccountResponse",
+  "users": [
+    {
+      "localId": "4V0e27zS0dQ6AoFNtIapohrChOzv",
+      "createdAt": "1612970345479",
+      "lastLoginAt": "1613137733169",
+      "displayName": "CDMI",
+      "photoUrl": "",
+      "customAttributes": "{\n    \"admin\":true\n}",
+      "providerUserInfo": [
+        {
+          "providerId": "google.com",
+          "rawId": "8703414989311999201251387704843473343030",
+          "federatedId": "8703414989311999201251387704843473343030",
+          "displayName": "CDMI",
+          "photoUrl": "",
+          "email": "admin@cdmionline",
+          "screenName": "CDMI"
+        }
+      ],
+      "validSince": "1614268882",
+      "email": "admin@cdmionline",
+      "emailVerified": true,
+      "disabled": false
+    },
+    {
+      "localId": "JOwLIhIJBxQzTU6CMRIypJu5IJ6S",
+      "createdAt": "1612969718879",
+      "lastLoginAt": "1612969718878",
+      "displayName": "CDMI",
+      "photoUrl": "",
+      "passwordHash": "fakeHash:salt=fakeSaltHYqFvM2JP5F1aii3NItJ:password=angularuniv",
+      "salt": "fakeSaltHYqFvM2JP5F1aii3NItJ",
+      "passwordUpdatedAt": 1614268882224,
+      "customAttributes": "{\n    \"admin\":true\n}",
+      "providerUserInfo": [
+        {
+          "providerId": "password",
+          "email": "helpdesk@cdmionline",
+          "federatedId": "helpdesk@cdmionline",
+          "rawId": "helpdesk@cdmionline",
+          "displayName": "CDMI",
+          "photoUrl": ""
+        }
+      ],
+      "validSince": "1614268882",
+      "email": "helpdesk@cdmionline",
+      "emailVerified": false,
+      "disabled": false
+    },
+    {
+      "localId": "TS7PEYLl3l3jgGDtjhkdoE8k2d29",
+      "createdAt": "1613128562900",
+      "lastLoginAt": "1613128562900",
+      "displayName": "Unknown",
+      "photoUrl": "",
+      "passwordHash": "fakeHash:salt=fakeSalt93nbUORHCt96MlAlEfDK:password=unknown",
+      "salt": "fakeSalt93nbUORHCt96MlAlEfDK",
+      "passwordUpdatedAt": 1614268882224,
+      "providerUserInfo": [
+        {
+          "providerId": "password",
+          "email": "unknown@cdmionline",
+          "federatedId": "unknown@cdmionline",
+          "rawId": "unknown@cdmionline",
+          "displayName": "Unknown",
+          "photoUrl": ""
+        }
+      ],
+      "validSince": "1614268882",
+      "email": "unknown@cdmionline",
+      "emailVerified": false,
+      "disabled": false
+    },
+    {
+      "localId": "fAzjbeq9zIa8LHyFH6z2HpGCUBpW",
+      "createdAt": "1613128293265",
+      "lastLoginAt": "1613128293264",
+      "displayName": "Student",
+      "photoUrl": "",
+      "passwordHash": "fakeHash:salt=fakeSalt8vqD5cG4qOHoL1uTWl68:password=student",
+      "salt": "fakeSalt8vqD5cG4qOHoL1uTWl68",
+      "passwordUpdatedAt": 1614268882224,
+      "providerUserInfo": [
+        {
+          "providerId": "password",
+          "email": "student@cdmionline",
+          "federatedId": "student@cdmionline",
+          "rawId": "student@cdmionline",
+          "displayName": "Student",
+          "photoUrl": ""
+        }
+      ],
+      "validSince": "1614268882",
+      "email": "student@cdmionline",
+      "emailVerified": false,
+      "disabled": false
+    }
+  ]
+}

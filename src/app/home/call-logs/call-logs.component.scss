@@ -1,0 +1,47 @@
+table {
+  width: 100%;
+}
+
+tr.detail-row {
+  height: 0;
+}
+
+tr.calls-row:not(.example-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.calls-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.calls-row td {
+  border-bottom-width: 0;
+}
+
+.calls-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.calls-diagram {
+
+  border: 2px solid black;
+  padding: 8px;
+  font-weight: lighter;
+  margin: 8px 0;
+  height: 104px;
+}
+
+.calls-phone {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.calls-description {
+  padding: 16px;
+}
+
+.calls-description-attribution {
+  opacity: 0.5;
+}

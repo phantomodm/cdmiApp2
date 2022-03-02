@@ -1,0 +1,77 @@
+<div id="add-client-container">
+  <header>
+    <h2>Add New Lead</h2>
+  </header>
+  <div>
+    <div>
+      <form [formGroup]="form">
+        <ng-container formArrayName="client">
+          <ng-container *ngFor="let clientForm of client.controls; let i = index">
+            <ng-container [formGroupName]="i">
+              <div id="add-client-form">
+
+                  <mat-form-field>
+                    <mat-label>First Name</mat-label>
+                    <input matInput formControlName="first">
+                  </mat-form-field>
+
+
+                  <mat-form-field>
+                    <mat-label>Last Name</mat-label>
+                    <input matInput formControlName="last">
+                  </mat-form-field>
+
+
+                  <mat-form-field>
+                    <mat-label>Address</mat-label>
+                    <input matInput formControlName="address">
+                  </mat-form-field>
+
+
+                  <mat-form-field>
+                    <mat-label>Apartment/Unit(Optional)</mat-label>
+                    <input matInput formControlName="address2">
+                  </mat-form-field>
+
+
+                  <mat-form-field>
+                    <mat-label>City</mat-label>
+                    <input matInput formControlName="city">
+                  </mat-form-field>
+
+
+                  <mat-form-field>
+                    <mat-label>State</mat-label>
+                    <mat-select formControlName="state">
+                      <mat-option value="Choose State" selected></mat-option>
+                      <mat-option *ngFor="let state of states" value="{{state.name}}">{{state.name}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+
+
+                  <mat-form-field>
+                    <mat-label>Zip</mat-label>
+                    <input matInput formControlName="postalCode">
+                  </mat-form-field>
+
+
+                  <mat-form-field class="example-full-width">
+                    <mat-label>Telephone</mat-label>
+                    <span matPrefix>+1 &nbsp;</span>
+                    <input type="tel" matInput formControlName="phone" placeholder="555-555-1234">
+                    <mat-icon matSuffix>mode_edit</mat-icon>
+                  </mat-form-field>
+
+                <mat-icon (click)="deleteClient(i)">delete_forever</mat-icon>
+              </div>
+            </ng-container>
+          </ng-container>
+        </ng-container>
+      </form>
+    </div>
+    <div>
+      <button  mat-fab color="primary" (click)="addNewClient()">+</button>
+      <button  mat-button color="primary" (click)="submitClients()">Submit</button>
+    </div>
+  </div>
+</div>
